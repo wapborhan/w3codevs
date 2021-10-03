@@ -4,9 +4,6 @@
     outline: 0;
 }
 
-img {
-    width: 200px;
-}
 
 .container {
     width: 1150px;
@@ -105,6 +102,8 @@ img {
 .hero-bd .tittle button:hover {
     border-radius: 10px 25px;
     transition: 0.3s;
+    color: #000;
+    letter-spacing: 1px;
 }
 
 .hero-bd .dis {
@@ -122,7 +121,78 @@ img {
 .main-about {
     display: flex;
     justify-content: space-between;
+    padding: 100px 0px;
+    width: 100%;
 }
+
+.left-image {
+    width: 30%;
+    border: 5px solid #888;
+    border-radius: 15px;
+    position: relative;
+}
+
+.left-image:before {
+    position: absolute;
+    content: "";
+    border: 5px solid #000;
+    top: 5px;
+    left: 5px;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.left-image:after {
+    position: absolute;
+    content: "";
+    border: 5px solid #363636;
+    top: -15px;
+    right: 5px;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.right-content {
+    width: 50%;
+}
+
+.right-content p {
+    font-size: 25px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+
+.left-image img {
+    width: 100%;
+}
+
+.right-content button {
+    background: red;
+    padding: 10px 30px;
+    outline: 0;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 25px 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: 40px 20px;
+}
+
+.right-content button:hover {
+    border-radius: 10px 25px;
+    transition: 0.3s;
+    color: #000;
+    letter-spacing: 1px;
+}
+
+
+
+
 
 
 /**/
@@ -131,26 +201,29 @@ img {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 100px 0px;
 }
 
 .images img {
-    width: 260px;
-    height: 260px;
+    width: 100%;
+    border-radius: 10px;
 }
 
 .jibon,
 .wccode,
 .ruma {
-    width: 280px;
+    width: 100%;
     background: lightgreen;
     padding: 20px;
     border-radius: 20px;
     ;
+    text-align: center;
 }
 
 .jibon h2,
 .wccode h2,
 .ruma h2 {
+    margin-top: 15px;
     color: red;
 }
 
@@ -158,4 +231,46 @@ img {
 .wccode h3,
 .ruma h3 {
     color: deeppink;
+    margin: 15px 0px;
+}
+
+.jibon p,
+.wccode p,
+.ruma p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.mar-15 {
+    margin: 15px;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.mar-15:hover {
+    background: #25ff25;
+    transition: 0.3s;
+}
+
+.jibon button,
+.wccode button,
+.ruma button {
+    background: red;
+    padding: 5px 15px;
+    outline: 0;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 40px;
+    float: right;
+}
+
+.jibon button:hover,
+.wccode button:hover,
+.ruma button:hover {
+    background: #ff3a3a;
+    color: #000;
 }
