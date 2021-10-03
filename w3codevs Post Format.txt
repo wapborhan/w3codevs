@@ -4,5 +4,5 @@ Name:
 ID: 07701
 Assignment : 6th Class
 Demo: https://wapborhan.github.io/w3codevs/class_6.html
-Source Code: https://github.com/wapborhan/w3codevs
+Source Code: https://wapborhan.github.io/w3codevs/
 #WB_Borhan
