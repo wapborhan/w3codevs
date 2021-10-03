@@ -1,0 +1,9 @@
+We are w3codevs Family
+Batch: Batch - 07
+Name: 
+ID: 07701
+Assignment : 6th Class
+Mentor: 
+Demo: https://wapborhan.github.io/w3codevs/class_6.html
+Source Code: https://github.com/wapborhan/w3codevs
+#WB_Borhan

@@ -239,6 +239,7 @@
 .ruma p {
     text-align: justify;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .mar-15 {
@@ -249,6 +250,18 @@
 
 .mar-15:hover {
     background: #25ff25;
+    transition: 0.3s;
+}
+
+.mar-15:hover button {
+    background: #888;
+    color: #000;
+    transition: 0.3s;
+}
+
+.mar-15:hover .social ul li a {
+    background: #000;
+    color: #fff;
     transition: 0.3s;
 }
 
@@ -268,9 +281,47 @@
     float: right;
 }
 
-.jibon button:hover,
-.wccode button:hover,
-.ruma button:hover {
-    background: #ff3a3a;
-    color: #000;
+.mar-15 .social {}
+
+.mar-15 .social ul {
+    margin: 0;
+    padding: 0;
 }
+
+.mar-15 .social ul li {
+    display: inline-block;
+}
+
+.mar-15 .social ul li a {
+    text-decoration: none;
+    padding: 10px;
+    background: #888;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
