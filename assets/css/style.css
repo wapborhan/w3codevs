@@ -4,6 +4,10 @@
     outline: 0;
 }
 
+img {
+    width: 200px;
+}
+
 .container {
     width: 1150px;
     margin: 0 auto;
@@ -113,4 +117,45 @@
     text-transform: capitalize;
     text-align: justify;
     text-shadow: 6px 6px 9px #000;
+}
+
+.main-about {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/**/
+
+.images {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images img {
+    width: 260px;
+    height: 260px;
+}
+
+.jibon,
+.wccode,
+.ruma {
+    width: 280px;
+    background: lightgreen;
+    padding: 20px;
+    border-radius: 20px;
+    ;
+}
+
+.jibon h2,
+.wccode h2,
+.ruma h2 {
+    color: red;
+}
+
+.jibon h3,
+.wccode h3,
+.ruma h3 {
+    color: deeppink;
 }
