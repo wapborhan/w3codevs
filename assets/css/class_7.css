@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    background: #888;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+
+}
+.heading{
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.heading h2{
+    font-size: 25px;
+    font-weight: 700;
+    border-bottom: 2px solid;
+    display: inline;
+}
+
+.form{
+    width: 1000px;
+    margin: 30px auto;
+    background: rgba(194, 194, 194, 0.301);
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 5px #0000001a;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.form-left{
+    width: 50%;
+}
+.form-right{
+    width: 50%;
+}
+.form-left label{
+    padding: 10px 15px;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 900;
+}
+.form-left input,select {
+    width: 250px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    /* background: linear-gradient(red, green); */
+    background: radial-gradient(rgb(255, 255, 255), rgb(78, 78, 78));
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    box-shadow: 0 0 20px 5px #0000001a;
+}
+
+.form-left select  {
+    width: 300px;
+    padding: 10px 5px !important;
+}
+
+.form-left input[type=button]{
+    width: 300px;
+    background: linear-gradient(rgb(255, 175, 27), rgb(35, 57, 255) , rgb(248, 35, 255));
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    border: none;
+    box-shadow: 0 0 20px 5px #0000001a;
+    cursor: pointer;
+}
+.form-left input[type=color]{
+width: 100px;
+height: 40px;
+padding: 3px;
+border-radius: 0;
+}
+
+span#name, span#emailr, span#numebr, #colrsed, #datde, #timtede {
+    background: red;
+    padding: 10px 25px 10px 5px;
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    margin: 2px 0;
+}

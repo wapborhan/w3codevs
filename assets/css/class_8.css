@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+.link {
+    /*
+    background: linear-gradient(to top, red, green, orange);
+    background: linear-gradient(to bottom, red, green, orange);
+    background: linear-gradient(to left, red, green, orange);
+*/
+    /*    background: -webkit-linear-gradient(to right, red, green, orange);*/
+    background: radial-gradient(red, green, orange);
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 50px 80px;
+    margin: 100px 100px;
+    display: inline-block;
+    border-radius: 10px;
+    text-transform: uppercase;
+    /*    transition: all 0.5s ease-in;*/
+    /*    transition: background 2s, border-radius 1s, padding 3s, transform 2s, skewX 0.5s;*/
+    /*
+    -webkit-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+*/
+    transition: background 2s;
+    transition: 0.5s;
+}
+
+.link:hover {
+    background: linear-gradient(orange, green, red);
+    border-radius: 30px;
+    /*    transform: rotate(360deg)*/
+
+    /*    transform: skewX(20deg);*/
+    /*    transform: scale(1.2)*/
+}
