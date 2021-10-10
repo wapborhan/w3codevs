@@ -41,14 +41,17 @@
 
 .link_1{
     background: linear-gradient(to top, red, green, orange);
+    transition: all 1s ease-in;
 }
 
 .link_2{
     background: radial-gradient(red, green, orange);
+    transition: all 1s ease-in;
 }
 
 .link_3{
     background: linear-gradient(to bottom, red, green, orange);
+    transition: all 1s ease-in;
 }
 .link_4{
     background: linear-gradient(to left, red, green, orange);
@@ -76,13 +79,31 @@
 }
 
 .link:hover {
-
-    border-radius: 50px;
-    /*    transform: rotate(360deg)*/
-    /*    transform: skewX(20deg);*/
+    /* border-radius: 50px; */
+    
     /*    transform: scale(1.2)*/
 }
 
 .link_1:hover {
-  transform: rotate(360deg);
+    transform: rotateX(360deg);
+}
+
+.link_2:hover {
+    transform: rotate(360deg);
+}
+
+.link_3:hover {
+    transform: rotateY(360deg);
+}
+
+.link_4:hover {
+    transform: skewX(30deg);
+}
+
+.link_5:hover {
+    transform: skewY(15deg);
+}
+
+.link_6:hover {
+    transform: skew(-30deg);
 }
