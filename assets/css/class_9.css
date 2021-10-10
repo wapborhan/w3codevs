@@ -1,1 +1,14 @@
-{\rtf1}
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.container{
+    width:1200px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
