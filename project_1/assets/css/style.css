@@ -10,3 +10,44 @@
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif; 
 */
+
+.container-full{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+.container-full::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-50{
+    width: 50%;
+    float: left;
+    padding: 0 25px;
+}
+
+.col-33{
+    width: 33%;
+    float: left;
+    padding: 0 25px;
+}
+
+.col-25{
+    width: 25%;
+    float: left;
+    padding: 0 25px;
+}
+
+
+
+/* Site Css */
+
+#topbar{
+    background: #1D1D1D;
+}
