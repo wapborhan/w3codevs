@@ -10,44 +10,57 @@
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif; 
 */
-
-.container-full{
-    width: 100%;
-    margin: 0 auto;
+body{
+    color: #fff;
 }
-
-.container{
-    width: 1300px;
-    margin: 0 auto;
-    padding: 0 25px;
-}
-.container-full::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-.col-50{
-    width: 50%;
-    float: left;
-    padding: 0 25px;
-}
-
-.col-33{
-    width: 33%;
-    float: left;
-    padding: 0 25px;
-}
-
-.col-25{
-    width: 25%;
-    float: left;
-    padding: 0 25px;
-}
-
-
 
 /* Site Css */
 
 #topbar{
-    background: #1D1D1D;
+    padding: 10px 0px;
+}
+/* .top-left{
+    display: flex;
+} */
+
+.top-left .number a, .top-left .social h2, .top-right .login-register a{
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif; 
+    color: #b6b6b6;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.top-left .social{
+    display: flex;
+}
+.top-left .social h2{
+    margin: 0px 0px 0px 40px;
+    line-height: 25px;
+}
+
+.top-left .social ul{
+    padding: 0;
+    margin: 0px 0px 0px 20px;
+}
+.top-left .social ul li{
+    display: inline-block;
+}
+.top-left .social ul li a{
+    text-decoration: none;
+    color: #b6b6b6;
+    margin: 0px 3px;
+    transition: 0.3s;
+    font-size: 10px;
+    
+}
+.top-left .social ul li a:hover, .top-left .number a:hover,.top-right .login-register a:hover{
+    color: #ff1949;
+}
+
+.top-right .login-register a{
+    margin: 0px 5px;
+}
+
+.menu .link-menu li, .menu .icon-menu li{
+    display: inline-block;
 }
