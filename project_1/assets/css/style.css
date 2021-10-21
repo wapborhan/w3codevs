@@ -203,6 +203,7 @@ margin: 40px 0;
 .course_wrap .cer-item .cer-img img{
     width: 100%;
     height: auto;
+    transition: 0.3s;
 }
 .course_wrap .cer-item .cer-content h2{
     font-size: 20px;
@@ -225,6 +226,7 @@ margin: 40px 0;
     background-color: #ff1949;
     height: 4px;
     width: 60px;
+    transition: 0.3s;
 }
 
 .course_wrap .cer-item:hover .cer-content h3:before{
