@@ -1,6 +1,5 @@
 //Filtering
 $(function () {
-    //    mixitup js
-    var mixer = mixitup('.course_wrap');
+  //    mixitup js
+  var mixer = mixitup(".course_wrap");
 });
-

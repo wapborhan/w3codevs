@@ -277,9 +277,7 @@ margin: 40px 0;
     padding: 30px 0;
 }
 
-.ex-sec{
-    margin: ;
-}
+
 .ex-sec .ex-item1{
     background: #ff1949;
     padding: 140px 13% 140px 13% !important;
@@ -315,7 +313,7 @@ margin: 40px 0;
 /* expert End */
 
 /* professionals start */
-.profession .head {}
+
 .profession .head  h2{
     font-family: 'Poppins', sans-serif !important;
     font-size: 45px;
@@ -349,7 +347,7 @@ margin: 40px 0;
     vertical-align: middle !important;
     padding: 30px 0;
 }
-.profession .content .prof-item .imgs{}
+
 .profession .content .prof-item .imgs img{
     width: 100%;
 }
