@@ -20,6 +20,9 @@ ul{
 li{
     display: inline-block;
 }
+img{
+    vertical-align: middle;
+}
 /* 
 font-family: 'Open Sans', sans-serif;
 font-family: 'Poppins', sans-serif; 
@@ -370,3 +373,64 @@ margin: 40px 0;
     font-size: 12px;
 }
 /* professionals end */
+
+/* Testimonials Start */
+.maintesti{
+    background: url(../images/testimonials.jpg) no-repeat center;
+    padding: 150px;
+}
+.test-slider .testi-item .testi-image img{
+    width: 100%;
+    border-radius: 100%;
+    border: 4px solid #fff;
+}
+
+.test-slider .testi-item .testi-content{
+    padding: 0 30px;
+}
+.video-item-image img{
+    width: 100%;
+}
+
+.video-item-image {
+    position: relative;
+}
+.video-item-image button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btnsvd{
+    outline: 0;
+    border: 0;
+    border-radius: 50%;
+}
+.test-arrow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 55 ;
+}
+.testprev{
+    position: absolute;
+    top: 65%;
+    left: 30%;
+}
+.testnext{
+    position: absolute;
+    top: 65%;
+    left: 35%;
+}
+
+.testnext::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f054";
+}
+.testprev::before{
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; 
+    content: "\f053";
+}
+/* Testimonials End */
