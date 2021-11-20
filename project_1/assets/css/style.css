@@ -446,7 +446,7 @@ margin: 40px 0;
     font-weight: 800;
     color: #252525;
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .video-main .content h2::before{
     content: "";
@@ -460,11 +460,24 @@ margin: 40px 0;
 }
 
 .video-main .content p{
-    margin: 10px 0;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 19px;
+    color: #333;
+    font-weight: 300;
 }
-
-
-
+.video-main .content ul{
+    padding: 35px 0 0 0;
+}
+.video-main .content ul li{
+    padding: 5px;
+    position: relative;
+}
+.video-main .content ul li i{
+    margin-right: 10px;
+    color: #ff1949;
+    font-weight: 500;
+}
 /* Video Part End */
 
 
