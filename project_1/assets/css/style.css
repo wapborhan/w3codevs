@@ -485,6 +485,18 @@ margin: 40px 0;
     background: url(../images/partner-bg.jpg) repeat ;
     padding: 90px 0;
 }
+.partner-main .partner-slider .partner-item {
+    cursor: grab;
+}
+.partner-main .partner-slider .partner-item .imgs img{
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+.partner-main .partner-slider .partner-item .imgs img:hover{
+    filter: grayscale(0%);
+    transition: 0.3s;
+}
 /* Partner Part End */
 
 
