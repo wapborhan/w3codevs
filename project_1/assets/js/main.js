@@ -14,3 +14,15 @@ $(document).ready(function () {
     prevArrow: '<button class="test-arrow testnext"></button>',
   });
 });
+
+$(document).ready(function () {
+  $(".partner-slider").slick({
+    arrows: true,
+    dots: false,
+    dotsClass: "slider-dots",
+    slidesToShow: 5,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+  });
+});

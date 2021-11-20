@@ -480,6 +480,11 @@ margin: 40px 0;
 }
 /* Video Part End */
 
-
+/* Partner Part Start */
+#partner{
+    background: url(../images/partner-bg.jpg) repeat ;
+    padding: 90px 0;
+}
+/* Partner Part End */
 
 
