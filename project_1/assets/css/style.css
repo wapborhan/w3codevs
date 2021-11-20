@@ -434,3 +434,39 @@ margin: 40px 0;
     content: "\f053";
 }
 /* Testimonials End */
+
+
+/* Video Part Start */
+.video-main {
+    padding: 130px 0;
+}
+.video-main .content h2{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 45px;
+    font-weight: 800;
+    color: #252525;
+    position: relative;
+    margin-bottom: 30px;
+}
+.video-main .content h2::before{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    background-color: #ff1949;
+    height: 2px;
+    width: 60px;
+    transition: 0.3s;
+}
+
+.video-main .content p{
+    margin: 10px 0;
+}
+
+
+
+/* Video Part End */
+
+
+
+
