@@ -1,3 +1,12 @@
+//Side Nav
+function openNav() {
+  document.getElementById("mySidenav").style.width = "510px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
 //Filtering
 $(function () {
   //    mixitup js
@@ -10,8 +19,10 @@ $(document).ready(function () {
     dots: false,
     dotsClass: "slider-dots",
     slidesToShow: 1,
-    nextArrow: '<button class="test-arrow testprev"></button>',
-    prevArrow: '<button class="test-arrow testnext"></button>',
+    nextArrow:
+      '<button class="test-arrow testprev"><i class="fas fa-chevron-left"></i></button>',
+    prevArrow:
+      '<button class="test-arrow testnext"><i class="fas fa-chevron-right"></i></button>',
   });
 });
 

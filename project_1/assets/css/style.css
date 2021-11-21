@@ -109,6 +109,82 @@ body{
 .menu .icon-menu li a:hover{
     color: #ff1949;
 }
+
+/* =========== Sidenv =========== */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    right: 0;
+    background-color: #252525;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding: 80px 0px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.sidenav-content{
+    color: #fff;
+    padding: 0 60px;
+}
+.sidenav-content .logo{
+    position: relative;
+    margin-bottom: 50px;
+}
+.sidenav-content .logo::before{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    background-color: #ff1949;
+    height: 2px;
+    width: 60px;
+    transition: 0.3s;
+}
+
+.sidenav-content .content{
+    margin-bottom: 30px;
+}
+
+.sidenav-content .course h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.sidenav-content .course ul li{
+    margin: 15px 0;
+}
+.sidenav-content .course ul li img {
+    width: 90px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+.sidenav-content .course ul li span{
+    display: block;
+}
+/* =========== Sidenv =========== */
+
+
 /* Header End */
 
 /* Hero Section Start */
@@ -380,13 +456,15 @@ margin: 40px 0;
     padding: 150px;
 }
 .test-slider .testi-item .testi-image img{
-    width: 100%;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
-    border: 4px solid #fff;
+    border: 2px solid #fff;
 }
 
-.test-slider .testi-item .testi-content{
-    padding: 0 30px;
+.test-slider .testi-item .testi-content {
+    margin: 0 90px;
+    color: #fff;
 }
 .video-item-image img{
     width: 100%;
@@ -414,25 +492,23 @@ margin: 40px 0;
 }
 .testprev{
     position: absolute;
-    top: 65%;
-    left: 30%;
+    top: 115%;
+    left: 20%;
+    background: transparent;
+    border: none;
+    font-size: 35px;
+    color: #fff;
 }
 .testnext{
     position: absolute;
-    top: 65%;
-    left: 35%;
+    top: 115%;
+    left: 30%;
+    background: transparent;
+    border: none;
+    font-size: 35px;
+    color: #fff;
 }
 
-.testnext::before{
-    font-family: "Font Awesome 5 Free"; 
-    font-weight: 900; 
-    content: "\f054";
-}
-.testprev::before{
-    font-family: "Font Awesome 5 Free"; 
-    font-weight: 900; 
-    content: "\f053";
-}
 /* Testimonials End */
 
 
@@ -499,4 +575,152 @@ margin: 40px 0;
 }
 /* Partner Part End */
 
+/* Apply part start */
+#apply{
+    background: url(../images/apply-bg.jpg) no-repeat ;
+    padding: 150px ;
+    background-attachment: fixed;
+}
+.apply-main .left{
+    background: #ff1949;
+    padding: 140px 100px;
+    
+}
+.apply-main .left h2{
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 900;
+}
 
+.apply-main .right{
+    background: #fff;
+    padding: 70px;
+    position: relative;
+}
+
+.apply-main .right .apply-form h2{
+    font-weight: 700;
+}
+
+.apply-main .right .apply-form form ul li {
+    display: block;
+    padding: 10px 0;
+}
+
+.apply-main .right .apply-form form ul li input[type=text] , .apply-main .right .apply-form form ul li input[type=email] ,.apply-main .right .apply-form form ul li input[type=number]
+{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #888 ;
+    padding: 10px ;
+}
+
+.apply-main .right .apply-form form ul li input[type=submit]{
+    background: #252525;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 50px;
+    transition:  0.3s;
+    border: 0;
+}
+.apply-main .right .apply-form form ul li input[type=submit]:hover{
+    background: #ff1949;
+}
+.apply-main .right :after {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: '';
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-width: 15px;
+    margin-top: -15px;
+    border-right-color: #fff;
+    z-index: 5;
+    
+}
+/* Apply part End */
+
+
+/* Footer part start */
+#footer{
+    background: #252525;
+    padding: 115px 0 0 0;
+    color: #fff;
+}
+#footer a{
+    color: #fff;
+    transition: 0.3s;
+}
+#footer a:hover{
+    color: #ff1949;
+}
+.main-footer .about h2,.main-footer .course h2, .main-footer .support h2,.main-footer .learing h2{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif; 
+    margin-bottom: 20px;
+}
+.main-footer .about p{
+    margin-bottom: 25px;
+}
+.main-footer .about ul li{
+    display: block;
+    margin-bottom: 10px;
+}
+.main-footer .about ul li a i{
+    margin-right: 10px;
+}
+
+.main-footer .course ul li{
+    display: block;
+    margin-bottom: 15px;
+}
+.main-footer .course ul li a{
+    font-weight: 900;
+}
+.main-footer .course ul li a span{
+    display: block;
+    font-weight: 300;
+    color: #dadada;
+}
+.main-footer .course ul li a span:hover{
+    color: #ff1949;
+}
+
+.main-footer .support ul li{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.credit-footer{
+    background: #1d1d1d;
+    padding: 15px 0 30px 0;
+    color: #b6b6b6;
+    margin-top: 50px;
+}
+.credit-footer a {
+    color: #b6b6b6!important;
+}.credit-footer a:hover {
+    color: #ff1949 !important;
+}
+.credit-footer .left h2{
+    font-size: 14px;
+
+}
+.credit-footer .right a{
+    margin-right: 20px;
+    font-size: 14px;
+
+}
+.credit-footer .right h2{
+    font-size: 14px;
+    margin-right: 15px;
+}
+/* Footer part end */
