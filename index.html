@@ -449,180 +449,105 @@
         </div>
       </section>
 
-
-      <!-- Section: About -->
+      <!-- Section About -->
       <section id="about">
-        <div class="container pb-70">
+        <div class="container mt-0 pb-70 pt-0">
           <div class="section-content">
-            <div class="row">
-              <div class="col-md-8 col-sm-12 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.3s">
-                <h2 class="text-uppercase mt-0">Welcome To <span class="text-theme-color-2"> LearnPress </span></h2>
+            <div class="row mt-10">
+              <div class="col-sm-12 col-md-6 mb-sm-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s"
+                style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s;">
+                <h3 class="text-uppercase mt-0">Welcome To <span class="text-theme-color-2"> LearnPress </span></h3>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisi cing elit. Quos dolo rem consequ untur,
-                  natus laudantium commodi earum aliquid in ullam.</p>
-                <div class="row mt-40">
-                  <div class="col-md-6 wow fadeInUp" data-wow-duration="1s">
-                    <div class="mb-sm-30">
-                      <img class="img-fullwidth" src="images/about/7.jpg" alt="">
-                      <h4 class="letter-space-1 mt-10">Graduation<span class="text-theme-color-2"> Degree</span></h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, magnam dolore tempore.</p>
-                      <a href="#" class="btn btn-sm btn-theme-colored">Read more</a>
-                    </div>
-                  </div>
-                  <div class="col-md-6 wow fadeInUp" data-wow-duration="1.2s">
-                    <div class="mb-sm-30">
-                      <img class="img-fullwidth" src="images/about/8.jpg" alt="">
-
-                      <h4 class=" letter-space-1 mt-10">Online<span class="text-theme-color-2"> Learning</span></h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, magnam dolore tempore.</p>
-                      <a href="#" class="btn btn-sm btn-theme-colored">Read more</a>
-                    </div>
-                  </div>
-                </div>
+                  natus laudantium commodi earum aliquid in ullam.Lorem ipsum.</p>
+                <p class="mb-15">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sunt ut dolorem
+                  laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero quia vero blanditiis fugit
+                  corporis quisquam, debitis quidem laudantium deleniti.</p>
+                <p class="mb-10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sunt ut dolorem
+                  laboriosam culpa excepturi sed distinctio eius! Ut magnam numquam libero quia vero blanditiis fugit
+                  corporis quisquam, debitis quidem laudantium deleniti.</p>
+                <a class="btn btn-colored btn-theme-colored btn-lg text-uppercase font-13 mt-0" href="#">View
+                  Details</a>
               </div>
-              <div class="col-md-4 col-sm-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-                <div class="p-30 bg-theme-colored mt-10">
-                  <h3 class="text-white mt-0 mb-10">Get A Free Registration!</h3>
-                  <!-- Appilication Form Start-->
-                  <form id="reservation_form" name="reservation_form" class="reservation-form mt-20" method="post"
-                    action="https://kodesolution.com/html/2017/learnpress-html/demo/includes/reservation.php">
-                    <div class="row">
-                      <div class="col-sm-12">
-                        <div class="form-group mb-20">
-                          <input placeholder="Enter Name" type="text" id="reservation_name" name="reservation_name"
-                            required="" class="form-control">
-                        </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="form-group mb-20">
-                          <input placeholder="Email" type="text" id="reservation_email" name="reservation_email"
-                            class="form-control" required="">
-                        </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="form-group mb-20">
-                          <input placeholder="Phone" type="text" id="reservation_phone" name="reservation_phone"
-                            class="form-control" required="">
-                        </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="form-group mb-20">
-                          <div class="styled-select">
-                            <select id="person_select" name="person_select" class="form-control" required>
-                              <option value="">Courses</option>
-                              <option value="1 Person">Software Engineering</option>
-                              <option value="2 Person">Computer Traning</option>
-                              <option value="3 Person">Development Studies</option>
-                              <option value="Family Pack">Chemical Engineering</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-sm-6">
-                        <div class="form-group mb-20">
-                          <input name="Date" class="form-control required date-picker" type="text" placeholder="Date"
-                            aria-required="true">
-                        </div>
-                      </div>
-                      <div class="col-sm-12">
-                        <div class="form-group">
-                          <textarea placeholder="Enter Message" rows="3" class="form-control required"
-                            name="form_message" id="form_message" aria-required="true"></textarea>
-                        </div>
-                      </div>
-                      <div class="col-sm-12">
-                        <div class="form-group mb-0 mt-10">
-                          <input name="form_botcheck" class="form-control" type="hidden" value="">
-                          <button type="submit" class="btn btn-colored btn-default text-black btn-lg btn-block"
-                            data-loading-text="Please wait...">Submit Request</button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                  <!-- Application Form End-->
-
-                  <!-- Application Form Validation Start-->
-                  <script type="text/javascript">
-                    $("#reservation_form").validate({
-                      submitHandler: function (form) {
-                        var form_btn = $(form).find('button[type="submit"]');
-                        var form_result_div = '#form-result';
-                        $(form_result_div).remove();
-                        form_btn.before(
-                          '<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>'
-                        );
-                        var form_btn_old_msg = form_btn.html();
-                        form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
-                        $(form).ajaxSubmit({
-                          dataType: 'json',
-                          success: function (data) {
-                            if (data.status == 'true') {
-                              $(form).find('.form-control').val('');
-                            }
-                            form_btn.prop('disabled', false).html(form_btn_old_msg);
-                            $(form_result_div).html(data.message).fadeIn('slow');
-                            setTimeout(function () {
-                              $(form_result_div).fadeOut('slow')
-                            }, 6000);
-                          }
-                        });
-                      }
-                    });
-                  </script>
-                  <!-- Application Form Validation Start -->
+              <div class="col-sm-12 col-md-6 mt-0 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s"
+                style="visibility: visible; animation-duration: 1s; animation-delay: 0.5s;">
+                <div class="video-popup">
+                  <a href="https://www.youtube.com/watch?v=pW1uVUg5wXM" data-lightbox-gallery="youtube-video"
+                    title="Video">
+                    <img alt="" src="images/about/5.jpg"
+                      class="img-responsive img-fullwidth mt-10 ml-30 ml-xs-0 ml-sm-0">
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- Section About -->
 
 
-      <!-- Section: Mission -->
-      <section id="mission">
-        <div class="container-fluid pt-0 pb-0">
-          <div class="row equal-height">
-            <div class="col-sm-6 col-md-6 xs-pull-none bg-theme-colored wow fadeInLeft" data-wow-duration="1s"
-              data-wow-delay="0.3s">
-              <div class="pt-60 pb-40 pl-90 pr-160 p-md-30">
-                <h2 class="title text-white text-uppercase line-bottom mt-0 mb-30">Why Choose Us?</h2>
-                <div class="icon-box clearfix m-0 p-0 pb-10">
-                  <a href="#" class="icon icon-circled bg-white icon-lg pull-left flip sm-pull-none">
-                    <i class="fa fa-desktop text-theme-color-2 font-36"></i>
-                  </a>
-                  <div class="ml-120 ml-sm-0">
-                    <h4 class="icon-box-title text-white mt-5 mb-10 letter-space-1">Best Lab</h4>
-                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam
-                      tortor, egestas varius erat aliquam. </p>
+
+
+      <!-- Why Choose US -->
+      <section class="divider parallax" data-bg-img="images/bg/bg1.jpg" data-parallax-ratio="0.7"
+        style="background-image: url(&quot;images/bg/bg1.jpg&quot;); background-position: 50% -143px;">
+        <div class="container pt-0 pb-0">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-4">
+              <div class="bg-white-transparent-9 pb-10 p-40">
+                <h2 class="mb-20 mt-30 line-height-1 text-center text-uppercase">Why <span class="text-theme-color-2">
+                    Choose Us?</span></h2>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="icon-box p-15 mb-0 mb-sm-0 mt-sm-0">
+                      <a class="icon pull-left sm-pull-none flip" href="#">
+                        <i class="fa fa-building text-theme-colored font-50"></i>
+                      </a>
+                      <div class="ml-70 ml-sm-0">
+                        <h4 class="icon-box-title mt-15 mb-5">Best Campus</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="icon-box clearfix m-0 p-0 pb-10">
-                  <a href="#" class="icon icon-circled bg-white icon-lg pull-left flip sm-pull-none">
-                    <i class="fa fa-user text-theme-color-2 font-36"></i>
-                  </a>
-                  <div class="ml-120 ml-sm-0">
-                    <h4 class="icon-box-title text-white mt-5 mb-10 letter-space-1">Best Teachers</h4>
-                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam
-                      tortor, egestas varius erat aliquam. </p>
+                  <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="icon-box p-15 mb-0 mb-sm-0 mt-sm-0">
+                      <a class="icon pull-left sm-pull-none flip" href="#">
+                        <i class="fa fa-users text-theme-colored font-50"></i>
+                      </a>
+                      <div class="ml-70 ml-sm-0">
+                        <h4 class="icon-box-title mt-15 mb-5">Best Teachers</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div class="icon-box clearfix m-0 p-0 pb-10">
-                  <a href="#" class="icon icon-circled bg-white icon-lg pull-left flip sm-pull-none">
-                    <i class="fa fa-money text-theme-color-2 font-36"></i>
-                  </a>
-                  <div class="ml-120 ml-sm-0">
-                    <h4 class="icon-box-title text-white mt-5 mb-10 letter-space-1">Low Cost Services</h4>
-                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam
-                      tortor, egestas varius erat aliquam. </p>
+                  <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="icon-box p-15 mb-30 mb-sm-0 mt-sm-0">
+                      <a class="icon pull-left sm-pull-none flip" href="#">
+                        <i class="fa fa-book text-theme-colored font-50"></i>
+                      </a>
+                      <div class="ml-70 ml-sm-0">
+                        <h4 class="icon-box-title mt-15 mb-5">Best Library</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="icon-box p-15 mb-30 mb-sm-0 mt-sm-0">
+                      <a class="icon pull-left sm-pull-none flip" href="#">
+                        <i class="fa fa-money text-theme-colored font-50"></i>
+                      </a>
+                      <div class="ml-70 ml-sm-0">
+                        <h4 class="icon-box-title mt-15 mb-5">Low Cost Services</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6 col-md-6 p-0 bg-img-cover wow fadeInRight hidden-xs"
-              data-bg-img="images/photos/ab1.jpg" data-wow-duration="1s" data-wow-delay="0.3s">
-            </div>
           </div>
         </div>
       </section>
+      <!-- Why Choose US -->
 
       <!-- Section: courses -->
       <section>
@@ -1549,6 +1474,177 @@
 
     </div>
     <!-- end main-content -->
+
+
+    <!-- Contact US -->
+    <section id="contact" class="bg-lighter">
+      <div class="container pt-70 pb-40">
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-5">
+              <h3 class="line-bottom text-uppercase mt-0 mb-30 mt-sm-20">FAQ</h3>
+
+
+              <div id="accordion1" class="panel-group accordion">
+                <div class="panel">
+                  <div class="panel-title"> <a class="collapsed" data-parent="#accordion1" data-toggle="collapse"
+                      href="#accordion17" aria-expanded="false"> <span class="open-sub"></span> Why this Company is
+                      Best?</a> </div>
+                  <div id="accordion17" class="panel-collapse collapse" role="tablist" aria-expanded="false"
+                    style="height: 0px;">
+                    <div class="panel-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit quae repellendus
+                        provident dolor iure poss imusven am aliquam. Officiis totam ea laborum deser unt vonsess. iure
+                        poss imusven am aliquam</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion18"
+                      class="collapsed" aria-expanded="false"> <span class="open-sub"></span> Why this Company is
+                      Best?</a> </div>
+                  <div id="accordion18" class="panel-collapse collapse" role="tablist" aria-expanded="false"
+                    style="height: 0px;">
+                    <div class="panel-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit quae repellendus
+                        provident dolor iure poss imusven am aliquam. Officiis totam ea laborum deser unt vonsess. iure
+                        poss imusven am aliquam</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion19"
+                      class="collapsed" aria-expanded="false"> <span class="open-sub"></span> Why this Company is
+                      Best?</a> </div>
+                  <div id="accordion19" class="panel-collapse collapse" role="tablist" aria-expanded="false"
+                    style="height: 0px;">
+                    <div class="panel-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit quae repellendus
+                        provident dolor iure poss imusven am aliquam. Officiis totam ea laborum deser unt vonsess. iure
+                        poss imusven am aliquam</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion20"
+                      class="collapsed" aria-expanded="false"> <span class="open-sub"></span> Why this Company is
+                      Best?</a> </div>
+                  <div id="accordion20" class="panel-collapse collapse" role="tablist" aria-expanded="false"
+                    style="height: 0px;">
+                    <div class="panel-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit quae repellendus
+                        provident dolor iure poss imusven am aliquam. Officiis totam ea laborum deser unt vonsess. iure
+                        poss imusven am aliquam</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion15"
+                      class="collapsed" aria-expanded="false"> <span class="open-sub"></span> Why this Company is
+                      Best?</a> </div>
+                  <div id="accordion15" class="panel-collapse collapse" role="tablist" aria-expanded="false"
+                    style="height: 0px;">
+                    <div class="panel-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit quae repellendus
+                        provident dolor iure poss imusven am aliquam. Officiis totam ea laborum deser unt vonsess. iure
+                        poss imusven am aliquam</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel">
+                  <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion21"
+                      class="active" aria-expanded="true"> <span class="open-sub"></span> Why this Company is Best?</a>
+                  </div>
+                  <div id="accordion21" class="panel-collapse collapse in" role="tablist" aria-expanded="true">
+                    <div class="panel-content">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore impedit quae repellendus
+                        provident dolor iure poss imusven am aliquam. Officiis totam ea laborum deser unt vonsess. iure
+                        poss imusven am aliquam</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-7">
+              <h3 class="line-bottom text-uppercase mt-0 mb-30 mt-sm-20">Send Us a Message</h3> <!-- Contact Form -->
+              <form id="contact_form" name="contact_form" class="" action="includes/sendmail.php" method="post"
+                novalidate="novalidate" _lpchecked="1">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group mb-30">
+                      <input name="form_name" class="form-control" type="text" placeholder="Enter Name" required=""
+                        aria-required="true"
+                        style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group mb-30">
+                      <input name="form_email" class="form-control required email" type="email"
+                        placeholder="Enter Email" aria-required="true">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group mb-30">
+                      <input name="form_subject" class="form-control required" type="text" placeholder="Enter Subject"
+                        aria-required="true">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group mb-30">
+                      <input name="form_phone" class="form-control" type="text" placeholder="Enter Phone">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group mb-15">
+                  <textarea name="form_message" class="form-control required" rows="9" placeholder="Enter Message"
+                    aria-required="true"></textarea>
+                </div>
+                <div class="form-group mb-30">
+                  <input name="form_botcheck" class="form-control" type="hidden" value="">
+                  <button type="submit"
+                    class="btn btn-flat btn-theme-colored text-uppercase mt-20 mb-sm-30 border-left-theme-color-2-4px"
+                    data-loading-text="Please wait...">Send your message</button>
+                  <button type="reset"
+                    class="btn btn-flat btn-theme-colored text-uppercase mt-20 mb-sm-30 border-left-theme-color-2-4px">Reset</button>
+                </div>
+              </form>
+              <!-- Contact Form Validation-->
+              <script type="text/javascript">
+                $("#contact_form").validate({
+                  submitHandler: function (form) {
+                    var form_btn = $(form).find('button[type="submit"]');
+                    var form_result_div = '#form-result';
+                    $(form_result_div).remove();
+                    form_btn.before(
+                      '<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>'
+                    );
+                    var form_btn_old_msg = form_btn.html();
+                    form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+                    $(form).ajaxSubmit({
+                      dataType: 'json',
+                      success: function (data) {
+                        if (data.status == 'true') {
+                          $(form).find('.form-control').val('');
+                        }
+                        form_btn.prop('disabled', false).html(form_btn_old_msg);
+                        $(form_result_div).html(data.message).fadeIn('slow');
+                        setTimeout(function () {
+                          $(form_result_div).fadeOut('slow')
+                        }, 6000);
+                      }
+                    });
+                  }
+                });
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact US -->
 
     <!-- Footer -->
     <footer id="footer" class="footer bg-black-222" data-bg-img="images/footer-bg.png">
