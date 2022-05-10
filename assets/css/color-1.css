@@ -1,6 +1,6 @@
 .btn {
     border: 0;
-    border-radius: 0;
+    border-radius: 4px;
     padding: 0 25px;
     background: transparent;
     text-align: center;
@@ -10,6 +10,7 @@
     overflow: hidden;
     color: #fff;
     transition: all 0.2s ease
+
 }
 
 .btn span {
@@ -787,7 +788,8 @@
     padding: 30px;
     position: relative;
     overflow: hidden;
-    transition: all 0.8s ease
+    transition: all 0.8s ease;
+    border-radius: 10px;
 }
 
 .staff-item.customize {
@@ -1047,7 +1049,8 @@
     font-size: 24px;
     z-index: 100;
     color: #86bc42;
-    transition: all .5s ease-in-out
+    transition: all .5s ease-in-out;
+    border-radius: 8px;
 }
 
 #back-top a:hover {
@@ -1278,7 +1281,8 @@ header .header-main {
 }
 
 header .header-main .logo {
-    line-height: 100px
+    line-height: 75px
+    /* line-height: 100px */
 }
 
 header .header-main .logo .header-logo img {
@@ -1296,7 +1300,7 @@ header .header-main .navigation .nav-links {
 }
 
 header .header-main .navigation .nav-links li .main-menu {
-    line-height: 100px;
+    line-height: 70px;
     padding: 0;
     margin: 0 15px;
     text-transform: uppercase;
@@ -1355,7 +1359,7 @@ header .header-main .navigation .icons-dropdown {
 }
 
 header .header-main .edugate-dropdown-menu-1, header .header-main .edugate-dropdown-menu-2 {
-    top: 105px;
+    top: 75px;
     min-width: 240px;
     border-radius: 0;
     border: none;
@@ -2596,7 +2600,8 @@ footer {
     text-align: center;
     top: 15px;
     color: #49575f;
-    transition: all 0.25s linear
+    transition: all 0.25s linear;
+    border-radius: 10px;
 }
 
 .pricing .pricing-widget .pricing-content .pricing-title {
@@ -2615,7 +2620,8 @@ footer {
     margin: 0 10px;
     background-color: #fff;
     color: #8c9aa5;
-    text-transform: capitalize
+    text-transform: capitalize;
+    border-radius: 8px;
 }
 
 .pricing .pricing-widget .pricing-content .pricing-list li {
@@ -5305,9 +5311,13 @@ h5 {
     margin-top: 90px;
     transition: all 0.3s linear
 }
+.edugate-layout-d {
+    display: inline-block !important;
+    border-radius: 8px;
+}
 
 .edugate-layout-1 .edugate-image {
-    width: 48%;
+    width: 100%;
     height: 400px;
     position: relative;
     top: -30px;
@@ -5315,18 +5325,37 @@ h5 {
     display: table-cell
 }
 
+.edugate-layout-1:hover .edugate-images{
+    transform: scale(1.03)
+}
+.edugate-layout-1 .edugate-images {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: -30px;
+    padding-left: 30px;
+    transform: scale(1);
+    transition: all linear 0.3s;
+   
+    /* display: table-cell */
+}
+.edugate-layout-1 .edugate-images img {
+    border-radius: 10px;
+}
 .edugate-layout-1 .edugate-image img {
     height: 100%;
-    width: 100%
+    width: 100%;
+    border-radius: 10px;
 }
 
 .edugate-layout-1 .edugate-content {
-    width: 55%;
-    padding: 50px 30px 30px 30px
+    width: 100%;
+    padding: 20px 30px 20px 30px;
+    text-align: justify;
 }
 
 .edugate-layout-1 .edugate-content .title {
-    font-size: 30px;
+    font-size: 25px;
     margin: 0 0 6px 0;
     max-height: 84px;
     overflow: hidden;
@@ -7961,4 +7990,12 @@ h5 {
     .edugate-layout-3 .edugate-layout-3-wrapper .edugate-image .news-gird-slider {
         width: 215px
     }
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
 }
