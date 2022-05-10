@@ -1,4 +1,9 @@
 import React from "react";
+import {
+  FaDollarSign,
+  FaAngleDoubleLeft,
+  FaAngleDoubleRight,
+} from "react-icons/fa";
 
 const Pricing = () => {
   return (
@@ -10,7 +15,9 @@ const Pricing = () => {
           <h2 className="center-title">the best pricing we offered</h2>
 
           <div className="bottom-title">
-            <i className="bottom-icon icon-a-1-01-01"></i>
+            <i className="bottom-icon icon-a-1-01-01">
+              <FaDollarSign />
+            </i>
           </div>
         </div>
         <div className="pricing-wrapper">
@@ -212,10 +219,14 @@ const Pricing = () => {
         </div>
         <div className="group-btn-slider">
           <div className="btn-prev">
-            <i className="fa fa-angle-left"></i>
+            <i className="fa fa-angle-left">
+              <FaAngleDoubleLeft />
+            </i>
           </div>
           <div className="btn-next">
-            <i className="fa fa-angle-right"></i>
+            <i className="fa fa-angle-right">
+              <FaAngleDoubleRight />
+            </i>
           </div>
         </div>
       </div>

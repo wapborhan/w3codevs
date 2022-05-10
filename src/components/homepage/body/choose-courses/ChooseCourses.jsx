@@ -14,7 +14,7 @@ const ChooseCourses = () => {
           </h2>
 
           <div className="bottom-title">
-            <i>
+            <i className="bottom-icon icon-icon-04">
               <FaDiscourse />
             </i>
           </div>
@@ -68,7 +68,9 @@ const ChooseCourses = () => {
             <div className="item-course item-3">
               <div className="icon-circle">
                 <div className="icon-background">
-                  <i className="icons-img icon-computer_network"><GiCyberEye/></i>
+                  <i className="icons-img icon-computer_network">
+                    <GiCyberEye />
+                  </i>
                 </div>
                 <div className="info">
                   <div className="info-back">

@@ -1,4 +1,5 @@
 import React from "react";
+import { FaPencilAlt } from "react-icons/fa";
 
 const ChooseUs = () => {
   return (
@@ -22,17 +23,16 @@ const ChooseUs = () => {
             data-wow-duration="1.2s"
             className="background-girl-1 wow fadeInUp"
           >
-            <img
-              src="assets/images/girl-1.png"
-              alt=""
-              className="img-responsive"
-            />
+            <img src="assets/images/girl-1.png" alt="" className="img-fluid" />
           </div>
         </div>
       </div>
-      <div className="why-choose-us-wrapper-bottom background-opacity" style={{
-        backgroundImage: `url("assets//images/background-why-choose-us.jpg")`,
-      }}>
+      <div
+        className="why-choose-us-wrapper-bottom background-opacity"
+        style={{
+          backgroundImage: `url("assets//images/background-why-choose-us.jpg")`,
+        }}
+      >
         <div className="container">
           <div
             data-wow-delay="0.4s"
@@ -41,35 +41,41 @@ const ChooseUs = () => {
           >
             <div className="row">
               <div className="col-sm-4 col-md-4 col-xs-6 section-icon">
-                <i className="fa fa-pencil-square-o"></i>
-
+                <i>
+                  <FaPencilAlt />
+                </i>
                 <p>Over 600 free tutorial</p>
               </div>
               <div className="col-sm-4 col-md-4 col-xs-6 section-icon">
-                <i className="fa fa-compress"></i>
-
+                <i>
+                  <FaPencilAlt />
+                </i>
                 <p>Refund if not Satisfied</p>
               </div>
 
               <div className="col-sm-4 col-md-4 col-xs-6 section-icon">
-                <i className="fa fa-paper-plane"></i>
-
+                <i>
+                  <FaPencilAlt />
+                </i>
                 <p>Easy to learning everytime, everywhere</p>
               </div>
               <div className="col-sm-4 col-md-4 col-xs-6 section-icon">
-                <i className="fa fa-folder-open"></i>
-
+                <i>
+                  <FaPencilAlt />
+                </i>
                 <p>Over 3000 Ebook a-vailable</p>
               </div>
 
               <div className="col-sm-4 col-md-4  col-xs-6 section-icon">
-                <i className="fa fa-external-link"></i>
-
+                <i>
+                  <FaPencilAlt />
+                </i>
                 <p>Free updates & support</p>
               </div>
               <div className="col-sm-4 col-md-4 col-xs-6 section-icon">
-                <i className="fa fa-stumbleupon-circle"></i>
-
+                <i>
+                  <FaPencilAlt />
+                </i>
                 <p>Flexible payment methods</p>
               </div>
             </div>

@@ -1,4 +1,6 @@
 import React from "react";
+import { FaStar, FaUser, FaComment } from "react-icons/fa";
+import { BsFillChatSquareTextFill, BsArrow90DegRight } from "react-icons/bs";
 
 const Blog = () => {
   return (
@@ -10,7 +12,9 @@ const Blog = () => {
           <h2 className="center-title">all about edugate updates</h2>
 
           <div className="bottom-title">
-            <i className="bottom-icon icon-a-01-01"></i>
+            <i className="bottom-icon icon-a-01-01">
+              <BsFillChatSquareTextFill />
+            </i>
           </div>
         </div>
         <div className="latest-news-wrapper">
@@ -39,13 +43,15 @@ const Blog = () => {
                     </div>
                     <div className="info-more">
                       <div className="view item">
-                        <i className="fa fa-user"></i>
-
+                        <i className="fa fa-user">
+                          <FaUser />
+                        </i>
                         <p>56</p>
                       </div>
                       <div className="comment item">
-                        <i className="fa fa-comment"></i>
-
+                        <i className="fa fa-comment">
+                          <FaComment />
+                        </i>
                         <p>239</p>
                       </div>
                     </div>
@@ -91,13 +97,15 @@ const Blog = () => {
                     </div>
                     <div className="info-more">
                       <div className="view item">
-                        <i className="fa fa-user"></i>
-
+                        <i className="fa fa-user">
+                          <FaUser />
+                        </i>
                         <p>56</p>
                       </div>
                       <div className="comment item">
-                        <i className="fa fa-comment"></i>
-
+                        <i className="fa fa-comment">
+                          <FaComment />
+                        </i>
                         <p>239</p>
                       </div>
                     </div>
@@ -143,13 +151,15 @@ const Blog = () => {
                     </div>
                     <div className="info-more">
                       <div className="view item">
-                        <i className="fa fa-user"></i>
-
+                        <i className="fa fa-user">
+                          <FaUser />
+                        </i>
                         <p>56</p>
                       </div>
                       <div className="comment item">
-                        <i className="fa fa-comment"></i>
-
+                        <i className="fa fa-comment">
+                          <FaComment />
+                        </i>
                         <p>239</p>
                       </div>
                     </div>
@@ -174,7 +184,10 @@ const Blog = () => {
           </div>
           <button className="btn btn-green btn-latest-new">
             <span>
-              Browser All Post<i className="fa fa-long-arrow-right"></i>
+              Browser All Post
+              <i>
+                <BsArrow90DegRight />
+              </i>
             </span>
           </button>
         </div>

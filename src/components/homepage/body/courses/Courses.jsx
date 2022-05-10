@@ -1,5 +1,6 @@
 import React from "react";
-import { FaStar } from "react-icons/fa";
+import { FaStar, FaUser, FaComment } from "react-icons/fa";
+import { BsHddNetworkFill, BsArrow90DegRight } from "react-icons/bs";
 
 const Courses = () => {
   return (
@@ -11,7 +12,9 @@ const Courses = () => {
           <h2 className="center-title">the top popular courses for you</h2>
 
           <div className="bottom-title">
-            <i className="bottom-icon icon-icon-04"></i>
+            <i className="bottom-icon icon-icon-04">
+              <BsHddNetworkFill />
+            </i>
           </div>
         </div>
         <div className="top-courses-wrapper">
@@ -33,25 +36,32 @@ const Courses = () => {
                           <a href="#">17 sep 2015</a>
                         </div>
                       </div>
-                      <div className="info-more">
+                      <div className="info-more d-flex justify-content-start">
                         <div className="view item">
-                          <i className="fa fa-user"></i>
-
+                          <i>
+                            {" "}
+                            <FaUser />
+                          </i>
                           <p>56</p>
                         </div>
                         <div className="comment item">
-                          <i className="fa fa-comment"></i>
-
+                          <i>
+                            <FaComment />
+                          </i>
                           <p>239</p>
                         </div>
+                        <div
+                          title="Rated 5.00 out of 5"
+                          className="star-ratings"
+                        >
+                          <span className="width-80">
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                          </span>
+                        </div>
                       </div>
-                      <div title="Rated 5.00 out of 5" className="star-rating">
-                        <span className="width-80">
-                        <FaStar/>
-                        <FaStar/>
-                        <FaStar/>
-                        </span>
-                      </div>
+
                       <div className="description">
                         It is a long established fact that a reader will be
                         distracted by the readable content of a page when
@@ -92,23 +102,30 @@ const Courses = () => {
                           <a href="#">17 sep 2015</a>
                         </div>
                       </div>
-                      <div className="info-more">
+                      <div className="info-more d-flex justify-content-start">
                         <div className="view item">
-                          <i className="fa fa-user"></i>
-
+                          <i>
+                            {" "}
+                            <FaUser />
+                          </i>
                           <p>56</p>
                         </div>
                         <div className="comment item">
-                          <i className="fa fa-comment"></i>
-
+                          <i>
+                            <FaComment />
+                          </i>
                           <p>239</p>
                         </div>
-                      </div>
-                      <div title="Rated 5.00 out of 5" className="star-rating">
-                        <span className="width-10">
-                          <strong className="rating">5.00</strong>
-                          out of 5
-                        </span>
+                        <div
+                          title="Rated 5.00 out of 5"
+                          className="star-ratings"
+                        >
+                          <span className="width-80">
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                          </span>
+                        </div>
                       </div>
                       <div className="description">
                         It is a long established fact that a reader will be
@@ -152,23 +169,30 @@ const Courses = () => {
                           <a href="#">17 sep 2015</a>
                         </div>
                       </div>
-                      <div className="info-more">
+                      <div className="info-more d-flex justify-content-start">
                         <div className="view item">
-                          <i className="fa fa-user"></i>
-
+                          <i>
+                            {" "}
+                            <FaUser />
+                          </i>
                           <p>56</p>
                         </div>
                         <div className="comment item">
-                          <i className="fa fa-comment"></i>
-
+                          <i>
+                            <FaComment />
+                          </i>
                           <p>239</p>
                         </div>
-                      </div>
-                      <div title="Rated 5.00 out of 5" className="star-rating">
-                        <span className="width-70">
-                          <strong className="rating">5.00</strong>
-                          out of 5
-                        </span>
+                        <div
+                          title="Rated 5.00 out of 5"
+                          className="star-ratings"
+                        >
+                          <span className="width-80">
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                          </span>
+                        </div>
                       </div>
                       <div className="description">
                         It is a long established fact that a reader will be
@@ -210,23 +234,30 @@ const Courses = () => {
                           <a href="#">17 sep 2015</a>
                         </div>
                       </div>
-                      <div className="info-more">
+                      <div className="info-more d-flex justify-content-start">
                         <div className="view item">
-                          <i className="fa fa-user"></i>
-
-                          <p>00</p>
+                          <i>
+                            {" "}
+                            <FaUser />
+                          </i>
+                          <p>56</p>
                         </div>
                         <div className="comment item">
-                          <i className="fa fa-comment"></i>
-
-                          <p>02</p>
+                          <i>
+                            <FaComment />
+                          </i>
+                          <p>239</p>
                         </div>
-                      </div>
-                      <div title="Rated 5.00 out of 5" className="star-rating">
-                        <span className="width-90">
-                          <strong className="rating">5.00</strong>
-                          out of 5
-                        </span>
+                        <div
+                          title="Rated 5.00 out of 5"
+                          className="star-ratings"
+                        >
+                          <span className="width-80">
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                          </span>
+                        </div>
                       </div>
                       <div className="description">
                         It is a long established fact that a reader will be
@@ -256,7 +287,10 @@ const Courses = () => {
           <div className="group-btn-top-courses-slider">
             <button className="btn btn-green btn-latest-new">
               <span>
-                Browser All Courses<i className="fa fa-long-arrow-right"></i>
+                Browser All Courses
+                <i>
+                  <BsArrow90DegRight />
+                </i>
               </span>
             </button>
           </div>
