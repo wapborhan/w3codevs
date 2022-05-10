@@ -7,7 +7,6 @@ const ChooseUs = () => {
         <div className="container">
           <div className="why-choose-us-wrapper">
             <h2 className="title-2">Why w3codevs?</h2>
-
             <p>
               There are many variations of passages of Lorem Ipsum available,
               but the majority have suffered alteration in some form, by

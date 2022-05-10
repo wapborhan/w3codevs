@@ -1,4 +1,5 @@
 import React from "react";
+import { FaStar } from "react-icons/fa";
 
 const Courses = () => {
   return (
@@ -46,8 +47,9 @@ const Courses = () => {
                       </div>
                       <div title="Rated 5.00 out of 5" className="star-rating">
                         <span className="width-80">
-                          <strong className="rating">5.00</strong>
-                          out of 5
+                        <FaStar/>
+                        <FaStar/>
+                        <FaStar/>
                         </span>
                       </div>
                       <div className="description">

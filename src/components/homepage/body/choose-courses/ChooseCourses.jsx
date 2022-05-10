@@ -1,4 +1,6 @@
 import React from "react";
+import { FaDiscourse, FaLaptopCode, FaRegImages } from "react-icons/fa";
+import { GiCyberEye } from "react-icons/gi";
 
 const ChooseCourses = () => {
   return (
@@ -12,7 +14,9 @@ const ChooseCourses = () => {
           </h2>
 
           <div className="bottom-title">
-            <i className="bottom-icon icon-a-1-01-01"></i>
+            <i>
+              <FaDiscourse />
+            </i>
           </div>
         </div>
         <div className="choose-course-wrapper row">
@@ -20,7 +24,9 @@ const ChooseCourses = () => {
             <div className="item-course item-1">
               <div className="icon-circle">
                 <div className="icon-background">
-                  <i className="icons-img icon-globe"></i>
+                  <i className="icons-img icon-globe">
+                    <FaLaptopCode />
+                  </i>
                 </div>
                 <div className="info">
                   <div className="info-back">
@@ -40,7 +46,9 @@ const ChooseCourses = () => {
             <div className="item-course item-2">
               <div className="icon-circle">
                 <div className="icon-background">
-                  <i className="icons-img icon-photocamera_1"></i>
+                  <i className="icons-img icon-photocamera_1">
+                    <FaRegImages />
+                  </i>
                 </div>
                 <div className="info">
                   <div className="info-back">
@@ -60,7 +68,7 @@ const ChooseCourses = () => {
             <div className="item-course item-3">
               <div className="icon-circle">
                 <div className="icon-background">
-                  <i className="icons-img icon-computer_network"></i>
+                  <i className="icons-img icon-computer_network"><GiCyberEye/></i>
                 </div>
                 <div className="info">
                   <div className="info-back">
