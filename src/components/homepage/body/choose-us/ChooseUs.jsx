@@ -31,7 +31,9 @@ const ChooseUs = () => {
           </div>
         </div>
       </div>
-      <div className="why-choose-us-wrapper-bottom background-opacity">
+      <div className="why-choose-us-wrapper-bottom background-opacity" style={{
+        backgroundImage: `url("assets//images/background-why-choose-us.jpg")`,
+      }}>
         <div className="container">
           <div
             data-wow-delay="0.4s"

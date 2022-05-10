@@ -21,7 +21,7 @@ const Blog = () => {
                   <img
                     src="assets/images/news/news-1.jpg"
                     alt=""
-                    className="img-responsive"
+                    className="img-fluid"
                   />
                 </div>
                 <div className="edugate-content">
@@ -73,7 +73,7 @@ const Blog = () => {
                   <img
                     src="assets/images/news/news-2.jpg"
                     alt=""
-                    className="img-responsive"
+                    className="img-fluid"
                   />
                 </div>
                 <div className="edugate-content">
@@ -125,7 +125,7 @@ const Blog = () => {
                   <img
                     src="assets/images/news/news-3.jpg"
                     alt=""
-                    className="img-responsive"
+                    className="img-fluid"
                   />
                 </div>
                 <div className="edugate-content">

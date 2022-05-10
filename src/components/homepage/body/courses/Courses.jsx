@@ -66,7 +66,7 @@ const Courses = () => {
                       <img
                         src="assets/images/courses/courses-1.jpg"
                         alt=""
-                        className="img-responsive"
+                        className="img-fluid"
                       />
                     </div>
                   </div>
@@ -124,7 +124,7 @@ const Courses = () => {
                       <img
                         src="assets/images/courses/courses-2.jpg"
                         alt=""
-                        className="img-responsive"
+                        className="img-fluid"
                       />
                     </div>
                   </div>
@@ -184,7 +184,7 @@ const Courses = () => {
                       <img
                         src="assets/images/courses/courses-3.jpg"
                         alt=""
-                        className="img-responsive"
+                        className="img-fluid"
                       />
                     </div>
                   </div>
@@ -242,7 +242,7 @@ const Courses = () => {
                       <img
                         src="assets/images/courses/courses-4.jpg"
                         alt=""
-                        className="img-responsive"
+                        className="img-fluid"
                       />
                     </div>
                   </div>

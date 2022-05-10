@@ -2,9 +2,11 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="section slider-banner set-height-top bg-dark">
+    <div className="section slider-banner set-height-top" >
       <div className="slider-item">
-        <div className="slider-1">
+        <div className="slider-1" style={{ 
+      backgroundImage: `url("assets//images/background-slider-1.jpg")` 
+    }}>
           <div className="slider-caption">
             <div className="container">
               <h5 className="text-info-2">You only have to know one thing</h5>

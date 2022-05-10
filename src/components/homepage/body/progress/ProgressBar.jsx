@@ -2,7 +2,12 @@ import React from "react";
 
 const ProgressBar = () => {
   return (
-    <div className="section progress-bars section-padding bg-dark">
+    <div
+      className="section progress-bars section-padding bg-dark"
+      style={{
+        backgroundImage: `url("assets//images/background-count-number.png")`,
+      }}
+    >
       <div className="container">
         <div className="progress-bars-content">
           <div className="progress-bar-wrapper">
