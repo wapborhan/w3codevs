@@ -1,7 +1,8 @@
 import React from "react";
+import Homepage from "./homepage/Homepage";
 
 const MainComponents = () => {
-  return <div>MainComponents</div>;
+  return <Homepage />;
 };
 
 export default MainComponents;

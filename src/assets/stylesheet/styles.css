@@ -5738,6 +5738,7 @@ h5 {
   display: table-cell;
   position: relative;
   z-index: 1;
+  border-radius: 10px;
 }
 
 .edugate-layout-2 .edugate-image img {
@@ -5755,6 +5756,7 @@ h5 {
   background-color: #fafafa;
   border-left: 5px solid #eaedf5;
   transition: all 0.3s linear;
+  border-radius: 0 10px 10px 0;
 }
 
 .edugate-layout-2:after {
