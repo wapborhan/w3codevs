@@ -248,28 +248,28 @@
     };
 
     // owl carousel for ....
-    var shw_slider_carousel = function() {
-         // owl carousel slider banner
-        $('.slider-banner').owlCarousel({
-            margin: 0,
-            loop: true,
-            //lazyLoad: true,
-            animateOut: 'fadeOut',
-            animateIn: 'fadeIn',
-            nav: false,
-            responsiveClass: true,
-            autoplay:true,
-            autoplayTimeout: 7000,
-            smartSpeed: 800,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                1024: {
-                    items: 1
-                }
-            }
-        });
+    // var shw_slider_carousel = function() {
+    //      // owl carousel slider banner
+    //     $('.slider-banner').owlCarousel({
+    //         margin: 0,
+    //         loop: true,
+    //         //lazyLoad: true,
+    //         animateOut: 'fadeOut',
+    //         animateIn: 'fadeIn',
+    //         nav: false,
+    //         responsiveClass: true,
+    //         autoplay:true,
+    //         autoplayTimeout: 7000,
+    //         smartSpeed: 800,
+    //         responsive: {
+    //             0: {
+    //                 items: 1
+    //             },
+    //             1024: {
+    //                 items: 1
+    //             }
+    //         }
+    //     });
 
          // owl carousel event-detail-list-staff
         $('.event-detail-list-staff').owlCarousel({
@@ -301,24 +301,24 @@
         });
 
         // owl carousel top courses
-        $('.top-courses-slider').owlCarousel({
-            margin: 30,
-            loop: true,
-            nav: false,
-            responsiveClass: true,
-            smartSpeed: 1000,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                1024: {
-                    items: 1
-                },
-                1025: {
-                    items: 2
-                }
-            }
-        });
+        // $('.top-courses-slider').owlCarousel({
+        //     margin: 30,
+        //     loop: true,
+        //     nav: false,
+        //     responsiveClass: true,
+        //     smartSpeed: 1000,
+        //     responsive: {
+        //         0: {
+        //             items: 1
+        //         },
+        //         1024: {
+        //             items: 1
+        //         },
+        //         1025: {
+        //             items: 2
+        //         }
+        //     }
+        // });
         // button click slider top courses
         $('.group-btn-top-courses-slider .btn-prev').on('click', function(){
             $('.top-courses-slider .owl-prev').click();
@@ -369,34 +369,34 @@
         });
 
         // owl carousel slider best staff
-        $('.best-staff-content').owlCarousel({
-            margin: 30,
-            loop: true,
-            nav: false,
-            responsiveClass: true,
-            //autoplay:true,
-            autoplayTimeout: 5000,
-            smartSpeed: 1000,
-            responsive: {
-                0: {
-                    items: 1,
-                    margin: 15,
-                },
-                400: {
-                    items: 2,
-                    margin: 15,
-                },
-                768: {
-                    items: 3
-                },
-                1024: {
-                    items: 3
-                },
-                1025: {
-                    items: 4
-                }
-            }
-        });
+        // $('.best-staff-content').owlCarousel({
+        //     margin: 30,
+        //     loop: true,
+        //     nav: false,
+        //     responsiveClass: true,
+        //     //autoplay:true,
+        //     autoplayTimeout: 5000,
+        //     smartSpeed: 1000,
+        //     responsive: {
+        //         0: {
+        //             items: 1,
+        //             margin: 15,
+        //         },
+        //         400: {
+        //             items: 2,
+        //             margin: 15,
+        //         },
+        //         768: {
+        //             items: 3
+        //         },
+        //         1024: {
+        //             items: 3
+        //         },
+        //         1025: {
+        //             items: 4
+        //         }
+        //     }
+        // });
         // button click slider best staff
         $('.best-staff .group-btn-slider .btn-prev').on('click', function(){
             $('.best-staff .owl-prev').click();
